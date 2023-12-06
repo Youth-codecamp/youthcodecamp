@@ -1,8 +1,6 @@
 # Welcome to Youth Code Camp
 
-![logo](https://github.com/Youth-codecamp/youthcodecamp/assets/121980393/046bff3c-8776-49fe-8682-d8b99c60ed45)
-
-
+![youthcodecamp net_ (1)](https://github.com/Youth-codecamp/youthcodecamp/assets/121980393/04964f01-2855-49fe-9d14-0381337faba2)
 
 ## The Community of Coders
 
@@ -38,6 +36,6 @@ Let's code together, innovate, and make a positive impact on the world!
 
 Happy coding!
 
-![youthcodecamp net_ (1)](https://github.com/Youth-codecamp/youthcodecamp/assets/121980393/04964f01-2855-49fe-9d14-0381337faba2)
+
 
 
