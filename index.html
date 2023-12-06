@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Youth Code Camp</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/logo-1.png">
+    <meta property="og:title" content="Youth Code Camp">
+    <meta name="title" content="Youth Code Camp">
+    <meta name="description" content="Youth Code Camp is non profit project aims to create a collaborative environment for young programmers, where they can work together, learn, innovate, and showcase their projects.">
+    <meta name="keywords" content="Youth Code Camp , coding community, coding , programming  , coding hackaton , coding camps , youth code camp">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <!--Google font-->
+    <link href="https://fonts.googleapis.com/css?family=K2D:300,400,500,700,800" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="output.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+    <header id="home">
+      <nav class="flex flex-wrap items-center justify-between p-3 bg-slate-400">
+        <img src="images/logo-1.png" class="h-7 w-6" alt="ACME" width="120" />
+        <div class="flex md:hidden">
+            <button id="hamburger">
+              <img class="toggle block" src="https://img.icons8.com/fluent-systems-regular/2x/menu-squared-2.png" width="40" height="40" />
+              <img class="toggle hidden" src="https://img.icons8.com/fluent-systems-regular/2x/close-window.png" width="40" height="40" />
+            </button>
+        </div>
+        <div
+            class="toggle hidden w-full md:w-auto md:flex text-right text-bold mt-5 md:mt-0 border-t-2 border-blue-900 md:border-none">
+            <a href="#home"
+                class="block md:inline-block text-current-900 hover:text-inherit-500 px-3 py-3 border-b-2 border-blue-900 md:border-none">Home
+            </a>
+            <a href="#about"
+                class="block md:inline-block text-current-900 hover:text-inherit-500 px-3 py-3 border-b-2 border-blue-900 md:border-none">About
+            </a>
+            <a href="https://www.buymeacoffee.com/youthcodeamp" target="_blank"
+                class="block md:inline-block text-current-900 hover:text-inherit-500 px-3 py-3 border-b-2 border-blue-900 md:border-none">Donate
+            </a>
+            <a href="#testimonal"
+                class="block md:inline-block text-current-900 hover:text-inherit-500 px-3 py-3 border-b-2 border-blue-900 md:border-none">Testimonals
+            </a>
+            <a href="#faq"
+                class="block md:inline-block text-current-900 hover:text-inherit-500 px-3 py-3 border-b-2 border-blue-900 md:border-none">Faq
+            </a>
+        </div>
+        <a href="https://forms.fillout.com/t/6zhm48ruTfus" target="_blank"
+            class="toggle hidden md:flex w-full md:w-auto px-4 py-2 text-right bg-blue-900 hover:bg-blue-500 text-white md:rounded-full">Register
+          today
+    
+        </a>
+    </nav>
+    <script>
+        document.getElementById("hamburger").onclick = function toggleMenu() {
+            const navToggle = document.getElementsByClassName("toggle");
+            for (let i = 0; i < navToggle.length; i++) {
+              navToggle.item(i).classList.toggle("hidden");
+            }
+          };
+    </script>
+    </header>
+
+    <section>
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-20 pb-16 text-center lg:pt-32">
+        <p class="mx-auto -mt-4 max-w-2xl text-lg tracking-tight text-slate-700 sm:mt-6">Welcome to
+            <span class="border-b border-dotted border-slate-300">youth code camp</span>
+        </p>
+    
+        <h1 class="mx-auto max-w-4xl font-display text-5xl font-medium tracking-tight text-slate-900 sm:text-7xl">
+            <span class="inline-block">The
+                <span class="relative whitespace-nowrap text-blue-600">
+                <svg aria-hidden="true" viewBox="0 0 418 42" class="absolute top-2/3 left-0 h-[0.58em] w-full fill-blue-300/70" preserveAspectRatio="none"><path d="M203.371.916c-26.013-2.078-76.686 1.963-124.73 9.946L67.3 12.749C35.421 18.062 18.2 21.766 6.004 25.934 1.244 27.561.828 27.778.874 28.61c.07 1.214.828 1.121 9.595-1.176 9.072-2.377 17.15-3.92 39.246-7.496C123.565 7.986 157.869 4.492 195.942 5.046c7.461.108 19.25 1.696 19.17 2.582-.107 1.183-7.874 4.31-25.75 10.366-21.992 7.45-35.43 12.534-36.701 13.884-2.173 2.308-.202 4.407 4.442 4.734 2.654.187 3.263.157 15.593-.78 35.401-2.686 57.944-3.488 88.365-3.143 46.327.526 75.721 2.23 130.788 7.584 19.787 1.924 20.814 1.98 24.557 1.332l.066-.011c1.201-.203 1.53-1.825.399-2.335-2.911-1.31-4.893-1.604-22.048-3.261-57.509-5.556-87.871-7.36-132.059-7.842-23.239-.254-33.617-.116-50.627.674-11.629.54-42.371 2.494-46.696 2.967-2.359.259 8.133-3.625 26.504-9.81 23.239-7.825 27.934-10.149 28.304-14.005.417-4.348-3.529-6-16.878-7.066Z"></path></svg>
+                <span class="relative">Community</span></span>
+            </span>
+            <span class="inline-block">of coders</span>
+        </h1>
+    
+        <p class="mx-auto mt-9 max-w-2xl text-lg tracking-tight text-slate-700 sm:mt-6">
+            <span class="inline-block">This non profit project aims to create a collaborative environment for young</span>
+            <span class="inline-block">programmers, where they can work together, learn, innovate, and showcase their projects.</span>
+        </p>
+    
+        <div class="mt-12 flex flex-col justify-center gap-y-5 sm:mt-10 sm:flex-row sm:gap-y-0 sm:gap-x-6">
+            <a class="group inline-flex items-center justify-center rounded-full py-2 px-4 text-sm font-semibold focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 bg-slate-900 text-white hover:bg-slate-700 hover:text-slate-100 active:bg-slate-800 active:text-slate-300 focus-visible:outline-slate-900 animate-fade-in-left"
+                href="https://discord.gg/h5dfqzGZ22" target="_blank">
+               
+                <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" height="1em" width="1em"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M2 11.6C2 8.23969 2 6.55953 2.65396 5.27606C3.2292 4.14708 4.14708 3.2292 5.27606 2.65396C6.55953 2 8.23969 2 11.6 2H20.4C23.7603 2 25.4405 2 26.7239 2.65396C27.8529 3.2292 28.7708 4.14708 29.346 5.27606C30 6.55953 30 8.23969 30 11.6V20.4C30 23.7603 30 25.4405 29.346 26.7239C28.7708 27.8529 27.8529 28.7708 26.7239 29.346C25.4405 30 23.7603 30 20.4 30H11.6C8.23969 30 6.55953 30 5.27606 29.346C4.14708 28.7708 3.2292 27.8529 2.65396 26.7239C2 25.4405 2 23.7603 2 20.4V11.6Z" fill="white"></path> <path d="M23.6361 9.33998C22.212 8.71399 20.6892 8.25903 19.0973 8C18.9018 8.33209 18.6734 8.77875 18.5159 9.13408C16.8236 8.89498 15.1469 8.89498 13.4857 9.13408C13.3283 8.77875 13.0946 8.33209 12.8974 8C11.3037 8.25903 9.77927 8.71565 8.35518 9.3433C5.48276 13.4213 4.70409 17.3981 5.09342 21.3184C6.99856 22.6551 8.84487 23.467 10.66 23.9983C11.1082 23.4189 11.5079 22.8029 11.8523 22.1536C11.1964 21.9195 10.5683 21.6306 9.9748 21.2951C10.1323 21.1856 10.2863 21.071 10.4351 20.9531C14.0551 22.5438 17.9881 22.5438 21.5649 20.9531C21.7154 21.071 21.8694 21.1856 22.0251 21.2951C21.4299 21.6322 20.8 21.9211 20.1442 22.1553C20.4885 22.8029 20.8865 23.4205 21.3364 24C23.1533 23.4687 25.0013 22.6567 26.9065 21.3184C27.3633 16.7738 26.1261 12.8335 23.6361 9.33998ZM12.3454 18.9075C11.2587 18.9075 10.3676 17.9543 10.3676 16.7937C10.3676 15.6331 11.2397 14.6783 12.3454 14.6783C13.4511 14.6783 14.3422 15.6314 14.3232 16.7937C14.325 17.9543 13.4511 18.9075 12.3454 18.9075ZM19.6545 18.9075C18.5678 18.9075 17.6767 17.9543 17.6767 16.7937C17.6767 15.6331 18.5488 14.6783 19.6545 14.6783C20.7602 14.6783 21.6514 15.6314 21.6323 16.7937C21.6323 17.9543 20.7602 18.9075 19.6545 18.9075Z" fill="#5865F2"></path> </g></svg>
+                
+                <span class="ml-3">Join our discord</span>
+            </a>
+            <div class="relative flex flex-1 flex-col items-stretch sm:flex-none" data-headlessui-state="">
+                <button class="group inline-flex ring-1 items-center justify-center rounded-full py-2 px-4 text-sm focus:outline-none ring-slate-200 text-slate-700 hover:text-slate-900 hover:ring-slate-300 active:bg-slate-100 active:text-slate-600 focus-visible:outline-blue-600 focus-visible:ring-slate-300 animate-fade-in-right" id="headlessui-menu-button-:r4:" aria-haspopup="true" aria-expanded="false" data-headlessui-state="" type="button">
+                  <svg stroke="currentColor" fill="currentColor" stroke-width="0" role="img" viewBox="0 0 24 24"
+     aria-hidden="true" class="h-3 w-3 flex-none" height="1em" width="1em"
+     xmlns="http://www.w3.org/2000/svg">
+    <path d="M12 0C5.372 0 0 5.372 0 12c0 5.303 3.438 9.8 8.207 11.387.6.11.793-.258.793-.577 0-.285-.01-1.04-.015-2.04-3.294.714-4.1-1.582-4.1-1.582-.553-1.396-1.35-1.768-1.35-1.768-1.104-.754.084-.74.084-.74 1.22.086 1.864 1.258 1.864 1.258 1.083 1.854 2.84 1.317 3.525 1 .11-.778.424-1.318.768-1.618-2.68-.305-5.491-1.34-5.491-5.96 0-1.318.465-2.396 1.233-3.238-.122-.303-.536-1.526.117-3.176 0 0 1.008-.322 3.3 1.23.958-.267 1.98-.4 3-.405 1.02.005 2.041.138 3 .405 2.29-1.553 3.297-1.23 3.297-1.23.654 1.65.24 2.873.12 3.176.75.842 1.2 1.92 1.2 3.238 0 4.63-2.816 5.652-5.496 5.95.432.372.81 1.108.81 2.23 0 1.61-.015 2.906-.015 3.29 0 .318.19.694.8.576C20.566 21.798 24 17.303 24 12c0-6.628-5.372-12-12-12z"/>
+</svg>
+                    <span class="ml-3">Github account</span>
+</a>
+                </button>
+            </div>
+        </div>
+    
+    </div>
+</section>
+
+    <section class="bg-white-100" id="about">
+        <div class="container mx-auto py-16 px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 items-center gap-8">
+                <div class="max-w-lg">
+                    <h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">About Us</h2>
+                    <p class="mt-4 text-gray-600 text-lg">
+                        youth code camp is all about bringing young
+programmers together to work on cool
+projects. It's a place where both experienced
+coders and beginners can team up, learn, and
+create. We're building online platform like
+blog application and elearning to make
+collaboration and learning programming easy.
+Whether you're a pro or just starting out, this
+is where you can join forces, learn together,
+and build amazing things with code. Come be
+a part of our project and let's make tech
+dreams come true
+                    </p>
+                    <div class="mt-8">
+                        <a href="https://github.com/Youth-codecamp" class="text-blue-500 hover:text-blue-600 font-medium" target="_blank">Learn more about us
+                            <span class="ml-2">&#8594;</span></a>
+                    </div>
+                </div>
+                <div class="mt-12 md:mt-0">
+                    <img src="images/about.png" alt="About Us Image" class="object-cover rounded-lg shadow-md w-800 h-700">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="">
+      <div class="py-12 bg-white">
+          <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+  
+              <div class="lg:text-center">
+                  <h2
+                      class="font-heading mb-4 bg-blue-100 text-black-500 px-4 py-2 rounded-lg md:w-64 md:mx-auto text-xs font-semibold tracking-widest text-black uppercase title-font">
+                      Why choose us?
+                  </h2>
+                  <p class="font-heading mt-2 text-3xl leading-8 font-semibold tracking-tight text-gray-900 sm:text-4xl">
+                    Empowering Youth Through Technology
+                  </p>
+                  <p class="mt-4 max-w-2xl text-lg text-gray-500 lg:mx-auto">
+                    At Youth Code Camp, our mission is to empower young minds through technology. We believe
+                     that every young individual has the potential to shape the future through code and innovation.
+                  </p>
+              </div>
+  
+              <div class="mt-10">
+                  <dl class="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
+                      <div class="relative">
+                          <dt>
+                              <div
+                                  class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-primary-500 text-white">
+                                  <img src="images/unite-svgrepo-com.svg" >
+                              </div>
+                              <p class="font-heading ml-16 text-lg leading-6 font-bold text-gray-700">Uniting Programmers</p>
+                          </dt>
+                          <dd class="mt-2 ml-16 text-base text-gray-500">
+                            We want to bring together young
+                            programmers to collaborate on exciting projects,
+                            exchange ideas, and promote their work
+                          </dd>
+                      </div>
+                      <div class="relative">
+                          <dt>
+                              <div
+                                  class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-primary-500 text-white">
+                                  <img src="images/projects-svgrepo-com.svg" >
+                              </div>
+                              <p class="font-heading ml-16 text-lg leading-6 font-bold text-gray-700">
+                                Showcasing Projects
+                              </p>
+                          </dt>
+                          <dd class="mt-2 ml-16 text-base text-gray-500"> 
+                            We are developing a blog application
+                            where programmers can post their projects and
+                            share what they've learned
+                            
+                          </dd>
+                      </div>
+                      <div class="relative">
+                          <dt>
+                              <div
+                                  class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-primary-500 text-white">
+                                  <img src="images/learning-center-pen-svgrepo-com.svg" >
+  
+                              </div>
+                              <p class="font-heading ml-16 text-lg leading-6 font-bold text-gray-700">Learning and Growth
+                              </p>
+                          </dt>
+                          <dd class="mt-2 ml-16 text-base text-gray-500"> We're providing an e learning
+                            platform to help programmers improve their skills and
+                            learn new ones
+                            
+                          </dd>
+                      </div>
+                      <div class="relative">
+                          <dt>
+                              <div
+                                  class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-primary-500 text-white">
+                                  <img src="images/innovation-idea-bulb-svgrepo-com.svg" >
+  
+                              </div>
+                              <p class="font-heading ml-16 text-lg leading-6 font-bold text-gray-700">Innovation through Hackathons
+                              </p>
+                          </dt>
+                          <dd class="mt-2 ml-16 text-base text-gray-500"> 
+                            We host hackathons to
+                      stimulate innovation and creative problem solving
+                          </dd>
+                      </div>
+                  </dl>
+              </div>
+  
+          </div>
+      </div>
+  </section>
+
+  
+  <div class="fixed bottom-6 right-6">
+    <a href="https://www.buymeacoffee.com/youthcodeamp" target="_blank" rel="noopener noreferrer"
+        class="bg-blue-500 text-white font-medium rounded-md px-4 py-2 flex items-center justify-center hover:bg-blue-600 transition duration-300 ease-in-out shadow-lg">
+        <span class="text-lg mr-2">☕</span>
+        Support US
+    </a>
+</div>
+
+  <section id="testimonal">
+    <div class="text-gray-600 dark:text-gray-300 mt-8" id="reviews">
+
+        <div class="max-w-7xl mx-auto px-6 md:px-12 xl:px-6">
+    
+            <div class="mb-10 space-y-4 px-6 md:px-0">
+                <h2 class="text-center text-2xl font-bold text-gray-800 dark:text-white md:text-4xl">
+                    <span class="text-blue-500">Youth</span> Code Camp Stories<span class="text-blue-500">.</span>
+                </h2>
+            </div>
+    
+    
+            <div class="md:columns-2 lg:columns-3 gap-8 space-y-8">
+    
+    
+                <div
+                    class="aspect-auto p-8 border border-gray-100 rounded-3xl bg-white dark:bg-gray-800 dark:border-gray-700 shadow-2xl shadow-gray-600/10 dark:shadow-none">
+                    <div class="flex gap-4">
+                        <img class="w-12 h-12 rounded-full" src="images/team/chaste.jpg" alt="user avatar" width="400" height="400" loading="lazy">
+                        <div>
+                            <h6 class="text-lg font-medium text-gray-700 dark:text-white">Shyaka Chaste</h6>
+                            <p class="text-sm text-gray-500 dark:text-gray-300">CEO and developer</p>
+                        </div>
+                    </div>
+                    <p class="mt-8">
+                        Hi, I'm Shyaka Chaste, CEO of Youth Code Camp. Our story is simple and exciting. 
+                         It's not just about coding; it's about making friends and building cool projects.
+                          At Youth Code Camp, we explore, laugh, and dream big together. Join our story,
+                           where coding is the hero, and every 
+                        coder is part of something awesome. Let's code and make our story even more incredible!
+                    </p>
+                </div>
+    
+    
+                <div
+                    class="aspect-auto p-8 border border-gray-100 rounded-3xl bg-white dark:bg-gray-800 dark:border-gray-700 shadow-2xl shadow-gray-600/10 dark:shadow-none">
+                    <div class="flex gap-4">
+                        <img class="w-12 h-12 rounded-full" src="images/team/hugue.jpg" alt="user avatar" width="200" height="200" loading="lazy">
+                        <div>
+                            <h6 class="text-lg font-medium text-gray-700 dark:text-white">Ishema Hugue</h6>
+                            <p class="text-sm text-gray-500 dark:text-gray-300">Designer and developer</p>
+                        </div>
+                    </div>
+                    <p class="mt-8">
+                       Iam Ishema Hugue, iam a team member of Youth Code Camp and I learn at Rwanda Coding Academy.
+                         It's an amazing combo. Learning is fun, and at Youth Code Camp,
+                         work feels like play. Grateful for the skills and the awesome community.
+                    </p>
+                </div>
+    
+    
+                <div
+                    class="aspect-auto p-8 border border-gray-100 rounded-3xl bg-white dark:bg-gray-800 dark:border-gray-700 shadow-2xl shadow-gray-600/10 dark:shadow-none">
+                    <div class="flex gap-4">
+                        <img class="w-12 h-12 rounded-full" src="images/team/peter.jpg" alt="user avatar" width="200" height="200" loading="lazy">
+                        <div>
+                            <h6 class="text-lg font-medium text-gray-700 dark:text-white">Mike Peter</h6>
+                            <p class="text-sm text-gray-500 dark:text-gray-300">Full stack Developer</p>
+                        </div>
+                    </div>
+                    <p class="mt-8">
+                        Meet Mike Peter, a student at Rwanda Coding Academy and a valued member 
+                        of the Youth Code Camp team. Balancing school and coding is challenging, 
+                        but it's an exciting journey of growth.
+                         Grateful for the encouragement and chances shaping my coding adventure.
+                    </p>
+                </div>
+    
+    
+                <div
+                    class="aspect-auto p-8 border border-gray-100 rounded-3xl bg-white dark:bg-gray-800 dark:border-gray-700 shadow-2xl shadow-gray-600/10 dark:shadow-none">
+                    <div class="flex gap-4">
+                        <img class="w-12 h-12 rounded-full" src="images/team/gisele.jpg" alt="user avatar" width="200" height="200" loading="lazy">
+                        <div>
+                            <h6 class="text-lg font-medium text-gray-700 dark:text-white">Akuzwe Gisele</h6>
+                            <p class="text-sm text-gray-500 dark:text-gray-300">Full stack developer</p>
+                        </div>
+                    </div>
+                    <p class="mt-8">
+                        Grateful for the support and opportunities shaping my coding path.
+                         As a team member at Youth Code Camp, I'm passionate about helping others on their journey.
+                         Together, we're building a community that thrives on collaboration and support.
+                    </p>
+                </div>
+    
+    
+                <div
+                    class="aspect-auto p-8 border border-gray-100 rounded-3xl bg-white dark:bg-gray-800 dark:border-gray-700 shadow-2xl shadow-gray-600/10 dark:shadow-none">
+                    <div class="flex gap-4">
+                        <img class="w-12 h-12 rounded-full" src="images/team/emmy.jpg" alt="user avatar" width="200" height="200" loading="lazy">
+                        <div>
+                            <h6 class="text-lg font-medium text-gray-700 dark:text-white">Emmy Gretta</h6>
+                            <p class="text-sm text-gray-500 dark:text-gray-300">Full stack developer</p>
+                        </div>
+                    </div>
+                    <p class="mt-8"> 
+                        Emmy Gretta, a full-stack developer, is a student at Rwanda Coding Academy 
+                        and an important part of YCC Developers. Balancing coding and studies is a fun challenge.
+                         Thanks for the great experiences and opportunities that Youth Code Camp brings into my coding journey.
+                    </p>
+                </div>
+    
+    
+                <div
+                    class="aspect-auto p-8 border border-gray-100 rounded-3xl bg-white dark:bg-gray-800 dark:border-gray-700 shadow-2xl shadow-gray-600/10 dark:shadow-none">
+                    <div class="flex gap-4">
+                        <img class="w-12 h-12 rounded-full" src="images/team/iranzi.jpg" alt="user avatar" width="400" height="400" loading="lazy">
+                        <div>
+                            <h6 class="text-lg font-medium text-gray-700 dark:text-white">Iranzi Thierry</h6>
+                            <p class="text-sm text-gray-500 dark:text-gray-300">Manager</p>
+                        </div>
+                    </div>
+                    <p class="mt-8">
+                        Iranzi Thierry, our manager, is like the guide in our coding story.
+                         He helps us work well together on our projects. It's not just about the work;
+                         he makes sure our time at Youth Code Camp is enjoyable and easy for everyone.
+                    </p>
+                </div>
+    
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <div class="bg-white">
+    <div class="mx-auto py-16 sm:px-6 lg:px-8">
+      <div class="relative isolate overflow-hidden px-6 py-24 text-center sm:rounded-3xl sm:px-16">
+        <h2 class="font-nudge-extrabold mx-auto max-w-2xl text-3xl font-bold uppercase tracking-wide sm:text-4xl">Join our
+          community now</h2>
+        <p class="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-600">Experience the benefits of our community. No
+          obligations, just join and explore.</p>
+        <div class="isolate mt-8 flex items-center justify-center -space-x-2 overflow-hidden">
+          <img class="relative z-30 inline-block h-10 w-10 rounded-full ring-2 ring-white" src="images/team/chaste.jpg" alt="">
+          <img class="relative z-20 inline-block h-10 w-10 rounded-full ring-2 ring-white" src="images/team/hugue.jpg" alt="">
+          <img class="relative z-10 inline-block h-10 w-10 rounded-full ring-2 ring-white" src="images/team/peter.jpg" alt="">
+          <img class="relative z-0 inline-block h-10 w-10 rounded-full ring-2 ring-white" src="images/team/iranzi.jpg" alt="">
+          <span class="!ml-2 font-bold italic text-blue-500">Join these awesome members</span>
+        </div>
+        <div class="mt-12 flex items-center justify-center gap-x-6">
+          <a href="https://forms.fillout.com/t/6zhm48ruTfus" target="_blank"><button type="button" class="text-md relative inline-flex items-center gap-x-2 rounded-lg bg-blue-600 px-6 py-4 font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600">
+            <span class="absolute -top-5 left-0 w-full text-left text-xs italic text-blue-600">No Obligations</span>Join Now
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="-mr-0.5 h-5 w-5">
+              <path fill-rule="evenodd" d="M16.72 7.72a.75.75 0 011.06 0l3.75 3.75a.75.75 0 010 1.06l-3.75 3.75a.75.75 0 11-1.06-1.06l2.47-2.47H3a.75.75 0 010-1.5h16.19l-2.47-2.47a.75.75 0 010-1.06z" clip-rule="evenodd"></path>
+            </svg>
+          </button></a>
+        </div>
+        <svg viewBox="0 0 1024 1024"
+          class="absolute left-1/2 top-1/2 -z-10 h-[72rem] w-[72rem] -translate-x-1/2 [mask-image:radial-gradient(closest-side,white,transparent)]"
+          aria-hidden="true">
+          <circle cx="512" cy="512" r="512" fill="url(#827591b1-ce8c-4110-b064-7cb85a0b1217)" fill-opacity="0.7"></circle>
+          <defs>
+            <radialGradient id="827591b1-ce8c-4110-b064-7cb85a0b1217">
+              <stop stop-color="#15b8a6"></stop>
+              <stop offset="1" stop-color="#15b8a6"></stop>
+            </radialGradient>
+          </defs>
+        </svg>
+      </div>
+    </div>
+  </div>
+
+<section id="faq">
+    <div class="py-4 bg-white">
+        <div class="max-w-screen-md mx-auto px-4 sm:px-6 lg:px-8 flex flex-col justify-between">
+    
+            <div class="text-center">
+                <p class="mt-4 text-sm leading-7 text-gray-500 font-regular">
+                    F.A.Q
+                </p>
+                <h3 class="text-3xl sm:text-4xl leading-normal font-extrabold tracking-tight text-gray-900">
+                    Frequently Asked <span class="text-indigo-600">Questions</span>
+                </h3>
+    
+            </div>
+    
+            <div class="mt-20">
+                <ul class="">
+    
+                    <li class="text-left mb-10">
+                        <div class="flex flex-row items-start mb-5">
+                            <div
+                                class="hidden sm:flex items-center justify-center p-3 mr-3 rounded-full bg-indigo-500 text-white border-4 border-white text-xl font-semibold">
+                                <svg width="30px" fill="white" height="30px" viewBox="0 0 24 24"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g data-name="Layer 2">
+                                        <g data-name="menu-arrow">
+                                            <rect width="24" height="24" transform="rotate(180 12 12)" opacity="0"></rect>
+                                            <path
+                                                d="M17 9A5 5 0 0 0 7 9a1 1 0 0 0 2 0 3 3 0 1 1 3 3 1 1 0 0 0-1 1v2a1 1 0 0 0 2 0v-1.1A5 5 0 0 0 17 9z">
+                                            </path>
+                                            <circle cx="12" cy="19" r="1"></circle>
+                                        </g>
+                                    </g>
+                                </svg>
+                            </div>
+                            <div class="bg-gray-100 p-5 px-10 w-full flex items-center">
+                                <h4 class="text-md leading-6 font-medium text-gray-900">
+                                    What is Youth Code Camp?
+                                </h4>
+                            </div>
+                        </div>
+    
+                        <div class="flex flex-row items-start">
+                            <div class="bg-indigo-100 p-5 px-10 w-full flex items-center">
+                                <p class="text-gray-700 text-sm">
+                                    Youth Code Camp is a non-profit community that provides a 
+                                    collaborative environment for young programmers. It's a place where youth can come together
+                                     to work on coding and technology projects and showcase their creations to a wider audience.
+                                </p>
+                            </div>
+                            <div
+                                class="hidden sm:flex items-center justify-center p-3 ml-3 rounded-full bg-indigo-500 text-white border-4 border-white text-xl font-semibold">
+                                <svg height="25px" fill="white" version="1.1" id="Layer_1"
+                                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+                                    y="0px" viewBox="0 0 295.238 295.238" style="enable-background:new 0 0 295.238 295.238;"
+                                    xml:space="preserve">
+                                    <g>
+                                        <g>
+                                            <g>
+                                                <path d="M277.462,0.09l-27.681,20.72l-27.838,64.905h-22.386l-8.79-19.048h5.743c10.505,0,19.048-8.452,19.048-18.957V28.571
+                    h9.524V0H196.51v28.571h9.524V47.71c0,5.248-4.271,9.433-9.524,9.433h-10.138L174.2,30.81l14.581-7.267L141.038,3.095
+                    l-11.224,39.281c-0.305-23.371-19.386-42.29-42.829-42.29c-23.633,0-42.857,19.224-42.857,42.857
+                    c0,14.281,7.233,27.676,19.048,35.595v7.176H51.643L50.9,89.619c-2.314,12.005-2.529,24.343-0.638,36.648l-32.486,57.905
+                    l35.876,8.195v60.014h47.619v42.857h114.286v-66.357c33.333-23.581,52.371-61.495,52.343-101.943l0.01-17.371
+                    c0-6.548-0.605-13.276-1.824-19.905l-0.705-3.948h-9.348l21.429-51.338V0.09z M206.033,19.138V9.614h9.524v9.524H206.033z
+                     M189.067,85.714h-18.062l-8.657-19.048h17.929L189.067,85.714z M147.219,16.119l18.929,8.11l-4.467,2.19l14.2,30.724h-17.862
+                    l-11.605-25.471l-4.262,2.152L147.219,16.119z M160.543,85.715h-21.176v-9.433c0-5.252,4.271-9.614,9.524-9.614h2.995v-0.001
+                    L160.543,85.715z M141.843,44.652l5.776,12.71c-9.905,0.667-17.776,8.848-17.776,18.919v9.433h-19.048v-7.176
+                    c9.529-6.386,15.995-16.352,18.176-27.452L141.843,44.652z M53.653,42.948c0-18.376,14.957-33.333,33.333-33.333
+                    c18.376,0,33.333,14.957,33.333,33.333c0,11.829-6.39,22.881-16.671,28.838l-2.376,1.371v12.557h-9.524V56.352
+                    c5.529-1.971,9.524-7.21,9.524-13.41c0-7.876-6.41-14.286-14.286-14.286c-7.876,0-14.286,6.411-14.286,14.287
+                    c0,6.2,3.995,11.438,9.524,13.41v29.362H72.7V73.157l-2.376-1.376C60.043,65.824,53.653,54.776,53.653,42.948z M86.986,47.71
+                    c-2.629,0-4.762-2.139-4.762-4.762c0-2.629,2.133-4.762,4.762-4.762c2.629,0,4.762,2.133,4.762,4.762S89.615,47.71,86.986,47.71z
+                     M257.366,95.239c0.691,4.761,1.039,9.59,1.039,14.285l0.01,17.405c0.029,38.148-18.795,73.871-50.286,95.552l-2.095,1.429
+                    v61.805h-95.238v-42.857h-47.62v-58.086l-30.862-7.043l27.876-49.7l-0.271-1.7c-1.771-10.419-1.871-21.567-0.333-31.09h3.59
+                    h47.619H257.366z M245.714,85.714H232.3l23.738-55.343l10.557,5.257L245.714,85.714z M267.938,25.714l-5.267-2.633l5.267-3.943
+                    V25.714z"></path>
+                                                <path d="M96.51,123.81c-7.876,0-14.286-4.762-14.286-14.286H72.7c0,14.286,10.681,23.81,23.81,23.81
+                    c13.129,0,23.81-9.524,23.81-23.81h-9.524C110.795,119.048,104.386,123.81,96.51,123.81z"></path>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </svg>
+                            </div>
+                        </div>
+    
+                    </li>
+                    <li class="text-left mb-10">
+                        <div class="flex flex-row items-start mb-5">
+                            <div
+                                class="hidden sm:flex items-center justify-center p-3 mr-3 rounded-full bg-indigo-500 text-white border-4 border-white text-xl font-semibold">
+                                <svg width="30px" fill="white" height="30px" viewBox="0 0 24 24"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g data-name="Layer 2">
+                                        <g data-name="menu-arrow">
+                                            <rect width="24" height="24" transform="rotate(180 12 12)" opacity="0"></rect>
+                                            <path
+                                                d="M17 9A5 5 0 0 0 7 9a1 1 0 0 0 2 0 3 3 0 1 1 3 3 1 1 0 0 0-1 1v2a1 1 0 0 0 2 0v-1.1A5 5 0 0 0 17 9z">
+                                            </path>
+                                            <circle cx="12" cy="19" r="1"></circle>
+                                        </g>
+                                    </g>
+                                </svg>
+                            </div>
+                            <div class="bg-gray-100 p-5 px-10 w-full flex items-center">
+                                <h4 class="text-md leading-6 font-medium text-gray-900">
+                                    Is there a registration fee to join Youth Code Camp?
+                                </h4>
+                            </div>
+                        </div>
+    
+                        <div class="flex flex-row items-start">
+                            <div class="bg-indigo-100 p-5 px-10 w-full flex items-center">
+                                <p class="text-gray-700 text-sm">
+                                    No, participation in Youth Code Camp is entirely free.
+                                     We believe in providing an inclusive and accessible learning experience for young coders. 
+                                </p>
+                            </div>
+                            <div
+                                class="hidden sm:flex items-center justify-center p-3 ml-3 rounded-full bg-indigo-500 text-white border-4 border-white text-xl font-semibold">
+                                <svg height="25px" fill="white" version="1.1" id="Layer_1"
+                                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+                                    y="0px" viewBox="0 0 295.238 295.238" style="enable-background:new 0 0 295.238 295.238;"
+                                    xml:space="preserve">
+                                    <g>
+                                        <g>
+                                            <g>
+                                                <path d="M277.462,0.09l-27.681,20.72l-27.838,64.905h-22.386l-8.79-19.048h5.743c10.505,0,19.048-8.452,19.048-18.957V28.571
+                    h9.524V0H196.51v28.571h9.524V47.71c0,5.248-4.271,9.433-9.524,9.433h-10.138L174.2,30.81l14.581-7.267L141.038,3.095
+                    l-11.224,39.281c-0.305-23.371-19.386-42.29-42.829-42.29c-23.633,0-42.857,19.224-42.857,42.857
+                    c0,14.281,7.233,27.676,19.048,35.595v7.176H51.643L50.9,89.619c-2.314,12.005-2.529,24.343-0.638,36.648l-32.486,57.905
+                    l35.876,8.195v60.014h47.619v42.857h114.286v-66.357c33.333-23.581,52.371-61.495,52.343-101.943l0.01-17.371
+                    c0-6.548-0.605-13.276-1.824-19.905l-0.705-3.948h-9.348l21.429-51.338V0.09z M206.033,19.138V9.614h9.524v9.524H206.033z
+                     M189.067,85.714h-18.062l-8.657-19.048h17.929L189.067,85.714z M147.219,16.119l18.929,8.11l-4.467,2.19l14.2,30.724h-17.862
+                    l-11.605-25.471l-4.262,2.152L147.219,16.119z M160.543,85.715h-21.176v-9.433c0-5.252,4.271-9.614,9.524-9.614h2.995v-0.001
+                    L160.543,85.715z M141.843,44.652l5.776,12.71c-9.905,0.667-17.776,8.848-17.776,18.919v9.433h-19.048v-7.176
+                    c9.529-6.386,15.995-16.352,18.176-27.452L141.843,44.652z M53.653,42.948c0-18.376,14.957-33.333,33.333-33.333
+                    c18.376,0,33.333,14.957,33.333,33.333c0,11.829-6.39,22.881-16.671,28.838l-2.376,1.371v12.557h-9.524V56.352
+                    c5.529-1.971,9.524-7.21,9.524-13.41c0-7.876-6.41-14.286-14.286-14.286c-7.876,0-14.286,6.411-14.286,14.287
+                    c0,6.2,3.995,11.438,9.524,13.41v29.362H72.7V73.157l-2.376-1.376C60.043,65.824,53.653,54.776,53.653,42.948z M86.986,47.71
+                    c-2.629,0-4.762-2.139-4.762-4.762c0-2.629,2.133-4.762,4.762-4.762c2.629,0,4.762,2.133,4.762,4.762S89.615,47.71,86.986,47.71z
+                     M257.366,95.239c0.691,4.761,1.039,9.59,1.039,14.285l0.01,17.405c0.029,38.148-18.795,73.871-50.286,95.552l-2.095,1.429
+                    v61.805h-95.238v-42.857h-47.62v-58.086l-30.862-7.043l27.876-49.7l-0.271-1.7c-1.771-10.419-1.871-21.567-0.333-31.09h3.59
+                    h47.619H257.366z M245.714,85.714H232.3l23.738-55.343l10.557,5.257L245.714,85.714z M267.938,25.714l-5.267-2.633l5.267-3.943
+                    V25.714z"></path>
+                                                <path d="M96.51,123.81c-7.876,0-14.286-4.762-14.286-14.286H72.7c0,14.286,10.681,23.81,23.81,23.81
+                    c13.129,0,23.81-9.524,23.81-23.81h-9.524C110.795,119.048,104.386,123.81,96.51,123.81z"></path>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </svg>
+                            </div>
+                        </div>
+    
+                    </li>
+                    <li class="text-left mb-10">
+                        <div class="flex flex-row items-start mb-5">
+                            <div
+                                class="hidden sm:flex items-center justify-center p-3 mr-3 rounded-full bg-indigo-500 text-white border-4 border-white text-xl font-semibold">
+                                <svg width="30px" fill="white" height="30px" viewBox="0 0 24 24"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g data-name="Layer 2">
+                                        <g data-name="menu-arrow">
+                                            <rect width="24" height="24" transform="rotate(180 12 12)" opacity="0"></rect>
+                                            <path
+                                                d="M17 9A5 5 0 0 0 7 9a1 1 0 0 0 2 0 3 3 0 1 1 3 3 1 1 0 0 0-1 1v2a1 1 0 0 0 2 0v-1.1A5 5 0 0 0 17 9z">
+                                            </path>
+                                            <circle cx="12" cy="19" r="1"></circle>
+                                        </g>
+                                    </g>
+                                </svg>
+                            </div>
+                            <div class="bg-gray-100 p-5 px-10 w-full flex items-center">
+                                <h4 class="text-md leading-6 font-medium text-gray-900">
+                                    What can I expect from Youth Code Camp?
+                                </h4>
+                            </div>
+                        </div>
+    
+                        <div class="flex flex-row items-start">
+                            <div class="bg-indigo-100 p-5 px-10 w-full flex items-center">
+                                <p class="text-gray-700 text-sm">
+                                    You can expect a welcoming and collaborative community where you can work on coding projects, learn from others, and get the opportunity to showcase your projects.
+                                     It's a place to enhance your coding skills and make new friends who share your interests.
+                                </p>
+                            </div>
+                            <div
+                                class="hidden sm:flex items-center justify-center p-3 ml-3 rounded-full bg-indigo-500 text-white border-4 border-white text-xl font-semibold">
+                                <svg height="25px" fill="white" version="1.1" id="Layer_1"
+                                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+                                    y="0px" viewBox="0 0 295.238 295.238" style="enable-background:new 0 0 295.238 295.238;"
+                                    xml:space="preserve">
+                                    <g>
+                                        <g>
+                                            <g>
+                                                <path d="M277.462,0.09l-27.681,20.72l-27.838,64.905h-22.386l-8.79-19.048h5.743c10.505,0,19.048-8.452,19.048-18.957V28.571
+                    h9.524V0H196.51v28.571h9.524V47.71c0,5.248-4.271,9.433-9.524,9.433h-10.138L174.2,30.81l14.581-7.267L141.038,3.095
+                    l-11.224,39.281c-0.305-23.371-19.386-42.29-42.829-42.29c-23.633,0-42.857,19.224-42.857,42.857
+                    c0,14.281,7.233,27.676,19.048,35.595v7.176H51.643L50.9,89.619c-2.314,12.005-2.529,24.343-0.638,36.648l-32.486,57.905
+                    l35.876,8.195v60.014h47.619v42.857h114.286v-66.357c33.333-23.581,52.371-61.495,52.343-101.943l0.01-17.371
+                    c0-6.548-0.605-13.276-1.824-19.905l-0.705-3.948h-9.348l21.429-51.338V0.09z M206.033,19.138V9.614h9.524v9.524H206.033z
+                     M189.067,85.714h-18.062l-8.657-19.048h17.929L189.067,85.714z M147.219,16.119l18.929,8.11l-4.467,2.19l14.2,30.724h-17.862
+                    l-11.605-25.471l-4.262,2.152L147.219,16.119z M160.543,85.715h-21.176v-9.433c0-5.252,4.271-9.614,9.524-9.614h2.995v-0.001
+                    L160.543,85.715z M141.843,44.652l5.776,12.71c-9.905,0.667-17.776,8.848-17.776,18.919v9.433h-19.048v-7.176
+                    c9.529-6.386,15.995-16.352,18.176-27.452L141.843,44.652z M53.653,42.948c0-18.376,14.957-33.333,33.333-33.333
+                    c18.376,0,33.333,14.957,33.333,33.333c0,11.829-6.39,22.881-16.671,28.838l-2.376,1.371v12.557h-9.524V56.352
+                    c5.529-1.971,9.524-7.21,9.524-13.41c0-7.876-6.41-14.286-14.286-14.286c-7.876,0-14.286,6.411-14.286,14.287
+                    c0,6.2,3.995,11.438,9.524,13.41v29.362H72.7V73.157l-2.376-1.376C60.043,65.824,53.653,54.776,53.653,42.948z M86.986,47.71
+                    c-2.629,0-4.762-2.139-4.762-4.762c0-2.629,2.133-4.762,4.762-4.762c2.629,0,4.762,2.133,4.762,4.762S89.615,47.71,86.986,47.71z
+                     M257.366,95.239c0.691,4.761,1.039,9.59,1.039,14.285l0.01,17.405c0.029,38.148-18.795,73.871-50.286,95.552l-2.095,1.429
+                    v61.805h-95.238v-42.857h-47.62v-58.086l-30.862-7.043l27.876-49.7l-0.271-1.7c-1.771-10.419-1.871-21.567-0.333-31.09h3.59
+                    h47.619H257.366z M245.714,85.714H232.3l23.738-55.343l10.557,5.257L245.714,85.714z M267.938,25.714l-5.267-2.633l5.267-3.943
+                    V25.714z"></path>
+                                                <path d="M96.51,123.81c-7.876,0-14.286-4.762-14.286-14.286H72.7c0,14.286,10.681,23.81,23.81,23.81
+                    c13.129,0,23.81-9.524,23.81-23.81h-9.524C110.795,119.048,104.386,123.81,96.51,123.81z"></path>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </svg>
+                            </div>
+                        </div>
+    
+                    </li>
+    
+                </ul>
+            </div>
+    
+        </div>
+    </div>
+</section>
+
+<div class="text-center">
+    <a href="#" class="flex items-center justify-center mb-5 text-2xl font-semibold text-gray-900 dark:text-white">
+        <img src="images/logo.png" class="h-12 mr-3 sm:h-9" alt="Landwind Logo">
+		Youth code camp
+    </a>
+
+    <span class="block text-sm text-center text-gray-500 dark:text-gray-400">© 2023 Youth code camp™. All Rights Reserved.
+		Fiscally sponsored by
+        <a href="https://hackclub.com/hcb/" target="_blank"
+			class="text-purple-600 hover:underline dark:text-purple-500">Hackclub</a>
+            <a
+			href="https://tailwindcss.com" class="text-purple-600 hover:underline dark:text-purple-500">
+        </a>
+	</span>
+
+    <ul class="flex justify-center mt-5 space-x-5">
+        <li>
+            <a href="https://www.facebook.com/people/Youth-code-camp/61553090916008/" class="text-gray-500 hover:text-gray-900 dark:hover:text-white dark:text-gray-400" target="_blank">
+                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path fill-rule="evenodd"
+                        d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
+                        clip-rule="evenodd"></path>
+                </svg>
+            </a>
+        </li>
+        <li>
+            <a href="https://www.instagram.com/youthcodecamp/" class="text-gray-500 hover:text-gray-900 dark:hover:text-white dark:text-gray-400" target="_blank">
+                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path fill-rule="evenodd"
+                        d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z"
+                        clip-rule="evenodd"></path>
+                </svg>
+            </a>
+        </li>
+        <li>
+            <a href="https://github.com/Youth-codecamp" class="text-gray-500 hover:text-gray-900 dark:hover:text-white dark:text-gray-400" target="_blank">
+                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path fill-rule="evenodd"
+                        d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"
+                        clip-rule="evenodd"></path>
+                </svg>
+            </a>
+        </li>
+    </ul>
+</div>
+</body>
+</html>
