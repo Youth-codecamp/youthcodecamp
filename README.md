@@ -1,7 +1,7 @@
 # Welcome to Youth Code Camp
 
-![Youth Code Camp Logo](![logo](https://github.com/Youth-codecamp/youthcodecamp/assets/121980393/8fbde3f2-9218-4447-8f98-1423bd1e5de0)
-)
+![Youth Code Camp Logo](![logo](https://github.com/Youth-codecamp/youthcodecamp/assets/121980393/046bff3c-8776-49fe-8682-d8b99c60ed45))
+
 
 
 ## The Community of Coders
