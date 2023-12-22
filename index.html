@@ -6,10 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Youth Code Camp</title>
     <link rel="shortcut icon" type="image/x-icon" href="images/logo-1.png">
-    <meta property="og:title" content="Youth Code Camp">
     <meta name="title" content="Youth Code Camp">
     <meta name="description" content="Youth Code Camp is non profit project aims to create a collaborative environment for young programmers, where they can work together, learn, innovate, and showcase their projects.">
     <meta name="keywords" content="Youth Code Camp , coding community, coding , programming  , coding hackaton , coding camps , youth code camp">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="7days days">
+    <meta name="author" content="Shyaka Chaste">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <!--Google font-->
     <link href="https://fonts.googleapis.com/css?family=K2D:300,400,500,700,800" rel="stylesheet">
@@ -19,50 +23,67 @@
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </head>
 <body>
-    <header id="home">
-      <nav class="flex flex-wrap items-center justify-between p-3 bg-slate-400">
-        <img src="images/logo-1.png" class="h-7 w-6" alt="ACME" width="120" />
-        <div class="flex md:hidden">
-            <button id="hamburger">
-              <img class="toggle block" src="https://img.icons8.com/fluent-systems-regular/2x/menu-squared-2.png" width="40" height="40" />
-              <img class="toggle hidden" src="https://img.icons8.com/fluent-systems-regular/2x/close-window.png" width="40" height="40" />
-            </button>
-        </div>
-        <div
-            class="toggle hidden w-full md:w-auto md:flex text-right text-bold mt-5 md:mt-0 border-t-2 border-blue-900 md:border-none">
-            <a href="#home"
-                class="block md:inline-block text-current-900 hover:text-inherit-500 px-3 py-3 border-b-2 border-blue-900 md:border-none">Home
-            </a>
-            <a href="#about"
-                class="block md:inline-block text-current-900 hover:text-inherit-500 px-3 py-3 border-b-2 border-blue-900 md:border-none">About
-            </a>
-            <a href="https://www.buymeacoffee.com/youthcodeamp" target="_blank"
-                class="block md:inline-block text-current-900 hover:text-inherit-500 px-3 py-3 border-b-2 border-blue-900 md:border-none">Donate
-            </a>
-            <a href="#testimonal"
-                class="block md:inline-block text-current-900 hover:text-inherit-500 px-3 py-3 border-b-2 border-blue-900 md:border-none">Testimonals
-            </a>
-            <a href="#faq"
-                class="block md:inline-block text-current-900 hover:text-inherit-500 px-3 py-3 border-b-2 border-blue-900 md:border-none">Faq
-            </a>
-        </div>
-        <a href="https://forms.fillout.com/t/6zhm48ruTfus" target="_blank"
-            class="toggle hidden md:flex w-full md:w-auto px-4 py-2 text-right bg-blue-900 hover:bg-blue-500 text-white md:rounded-full">Register
-          today
-    
-        </a>
-    </nav>
-    <script>
-        document.getElementById("hamburger").onclick = function toggleMenu() {
-            const navToggle = document.getElementsByClassName("toggle");
-            for (let i = 0; i < navToggle.length; i++) {
-              navToggle.item(i).classList.toggle("hidden");
-            }
-          };
-    </script>
-    </header>
 
-    <section>
+    <nav class="bg-gray-900 border-gray-200 py-2.5 ">
+        <div class="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto">
+            <a href="#" class="flex items-center">
+                <img src="images/logo-1.png" class="h-8 mr-3 sm:h-8" alt="YCC Logo">
+                <span class="self-center text-xl font-semibold whitespace-nowrap"></span>
+            </a>
+            <div class="flex items-center lg:order-2">
+                <div class="hidden mt-2 mr-4 sm:inline-block">
+                    <span></span>
+                </div>
+    
+                <a href="https://forms.fillout.com/t/6zhm48ruTfus" target="_blank"
+                    class="text-white bg-blue-700 hover:b-800 focus:bg-blue=800:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Register</a>
+                <button data-collapse-toggle="mobile-menu-2" type="button"
+                    class="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                    aria-controls="mobile-menu-2" aria-expanded="true">
+                    <span class="sr-only">Open main menu</span>
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                    <svg class="hidden w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                </button>
+            </div>
+            <div class="items-center justify-between w-full lg:flex lg:w-auto lg:order-1" id="mobile-menu-2">
+                <ul class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
+                    <li>
+                        <a href="#"
+                            class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded lg:bg-transparent lg:text-blue-700 lg:p-0"
+                            aria-current="page">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about"
+                            class="block py-2 pl-3 pr-4 text-white border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">About</a>
+                    </li>
+                    <li>
+                        <a href="#testimonal"
+                            class="block py-2 pl-3 pr-4 text-white border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Testimonals</a>
+                    </li>
+                    <li>
+                        <a href="#faq"
+                            class="block py-2 pl-3 pr-4 text-white border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Faq</a>
+                    </li>
+                    <li>
+                        <a href="https://www.buymeacoffee.com/youthcodeamp" target="_blank"
+                            class="block py-2 pl-3 pr-4 text-white border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Donate</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <script src="https://unpkg.com/flowbite@1.4.1/dist/flowbite.js"></script>
+      
+    <section class="bg-blue-20">
       <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-20 pb-16 text-center lg:pt-32">
         <p class="mx-auto -mt-4 max-w-2xl text-lg tracking-tight text-slate-700 sm:mt-6">Welcome to
             <span class="border-b border-dotted border-slate-300">youth code camp</span>
@@ -97,8 +118,7 @@
      xmlns="http://www.w3.org/2000/svg">
     <path d="M12 0C5.372 0 0 5.372 0 12c0 5.303 3.438 9.8 8.207 11.387.6.11.793-.258.793-.577 0-.285-.01-1.04-.015-2.04-3.294.714-4.1-1.582-4.1-1.582-.553-1.396-1.35-1.768-1.35-1.768-1.104-.754.084-.74.084-.74 1.22.086 1.864 1.258 1.864 1.258 1.083 1.854 2.84 1.317 3.525 1 .11-.778.424-1.318.768-1.618-2.68-.305-5.491-1.34-5.491-5.96 0-1.318.465-2.396 1.233-3.238-.122-.303-.536-1.526.117-3.176 0 0 1.008-.322 3.3 1.23.958-.267 1.98-.4 3-.405 1.02.005 2.041.138 3 .405 2.29-1.553 3.297-1.23 3.297-1.23.654 1.65.24 2.873.12 3.176.75.842 1.2 1.92 1.2 3.238 0 4.63-2.816 5.652-5.496 5.95.432.372.81 1.108.81 2.23 0 1.61-.015 2.906-.015 3.29 0 .318.19.694.8.576C20.566 21.798 24 17.303 24 12c0-6.628-5.372-12-12-12z"/>
 </svg>
-                    <span class="ml-3">Github account</span>
-</a>
+                    <a href="https://github.com/Youth-codecamp" target="_blank"><span class="ml-3">Github account</span></a>
                 </button>
             </div>
         </div>
