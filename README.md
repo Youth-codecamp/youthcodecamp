@@ -1,8 +1,4 @@
-# Welcome to Youth Code Camp
-
-![youthcodecamp net_ (1)](https://github.com/Youth-codecamp/youthcodecamp/assets/121980393/04964f01-2855-49fe-9d14-0381337faba2)
-
-## The Community of Coders
+# Welcome to Youth Code Camp the community of coders
 
 Welcome to the Youth Code Camp, a non-profit project dedicated to fostering a collaborative environment for young programmers. Our mission is to provide a platform where young minds can come together to learn, innovate, and showcase their projects. Whether you're a beginner or an experienced coder, this community is open to everyone who is passionate about coding and technology.
 
